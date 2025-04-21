@@ -1,1 +1,5 @@
-python main.py
+[build]
+  command = "pip install -r requirements.txt"
+
+[start]
+  command = "python main.py"
